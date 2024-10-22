@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+}
+header{
+    background: url(../images/bg_cabezote.jpg) bottom repeat-x;
+    height: 250px;
+}
+.container{
+    width: 950px;
+    border: red solid 1px;
+    margin: 0 auto;
+    display: flex;
+    column-gap: 40px;
+}
+#logo{
+background: url(../images/logo_corporacion_diafora.png) no-repeat;
+height: 180px;
+width: 280px;
+}
+#logo a{
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+#logo h1{
+    display: none;
+}
+.mainmenu{
+    width: 250px;
+    background-color: #feb228;
+    display:inline-block ;
+    vertical-align: top;
+}
+.mainmenu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none ;
+}
+.mainmenu ul li{
+color: #fff;
+text-indent: 15px;
+padding:6px 0;
+border: dotted #fff 1px;
+}
+
+.mainmenu ul li:hover{
+    background: red;
+}
+
+
+.banner{
+    display:inline-block ;
+    margin-left: 40px;
+}
+
+.main-section{
+    background: #ccc;
+    padding: 20px 0;
+    background: url(../images/bg_bottom_corporativo.jpg) repeat-x bottom;
+}
+.Valentina{
+    background-color: #ececec;
+    padding: 10px;
+    border-radius: 8px ;
+
+}
+aside{
+    
+}
+.main-aside{
+width: 250px;
+margin-right: 20px;
+}
+.main-aside img{
+    margin-bottom: 15px;
+}
+
+article{
+    width: 48%;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 2%;
+}
+
+.h2{
+    border-bottom: solid 2px;
+
+}
